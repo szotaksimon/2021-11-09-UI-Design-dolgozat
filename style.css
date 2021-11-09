@@ -1,0 +1,49 @@
+.main-div{
+    background-color: rgb(212, 212, 212);
+    width: 30%;
+    height: 300px;
+    border-radius: 15px;
+    padding-top: 1px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.inputmezo input{
+    width: 90%;
+}
+.inputmezo{
+    margin-top: 18px;
+    margin-left: 7%;
+}
+.button{
+    text-align: center;
+    margin-top: 20px;
+}
+#megjelenites{
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.elonezet{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#hiba-szoveg{
+    color: red;
+}
+#szoveg{
+    max-width: 200px;
+}
+.kedvencek-div{
+    width: 300px;
+    height: 200px;
+
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+        <div class="main-div">
+            <form>
+                <div class="inputok">
+                    <div class="inputmezo">
+                        <label for="minta-szoveg">Mintaszöveg:</label><br>
+                        <input type="text" name="minta-szoveg" id="minta-szoveg" onkeyup="szoveg()"><br>
+                        <span id="hiba-szoveg"></span>
+                    </div>
+                    <div class="inputmezo">
+                        <label for="font-size">Betűméret:</label><br>
+                        <input type="number" name="font-size" id="font-size" onkeyup="betumeret()">
+                    </div>
+                    <div class="inputmezo">
+                        <label for="font-color">Betűszín:</label><br>
+                        <input type="color" name="font-color" id="font-color" oninput="betuszin()">
+                    </div>
+                    <div class="inputmezo">
+                        <label for="background-color">Háttérszín:</label><br>
+                        <input type="color" name="background-color" id="background-color" value="#ffffff" oninput="hatterszin()">             
+                    </div>
+                    <div class="button">
+                        <input type="button" value="Alaphelyzet" onclick="alaphelyzet()">
+                        <input type="button" value="Kedvencekhez ad" onclick="add()">
+                        <input type="button" value="Kedvencek" onclick="kiir()">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="elonezet">
+            <h2>Előnézet</h2>
+        </div>
+        <div id="megjelenites">
+            <span id="szoveg"></span>
+        </div>
+        <div class="kedvencek-div">
+            <span id="kedvenc"></span>
+        </div>
+</body>
+</html>
+<script src="main.js"></script>
